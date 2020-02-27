@@ -128,16 +128,6 @@ class Perception(object):
         pred_list = [self.pred_org_one(i) for i in X]
         return pred_list
 
-
-
-
-def performance(test_set, Percetion):
-    pass
-
-
-def train_progress_plot(x, loss):
-    pass
-
 if __name__ == '__main__':
     """
     先对函数进行测试
